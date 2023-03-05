@@ -1,0 +1,151 @@
+[
+    {
+       "id": 1,
+       "country": "Italy",
+       "img": "https://images.unsplash.com/photo-1576073663821-75f8cebfc3bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+       "question": "Who was the wealthiest man to ever live?",
+       "answers": {
+            "right": "Augustus Caesar",
+            "wrong1": "Julius Caesar",
+            "wrong2": "Mansa Musa",
+            "wrong3": "Elon Musk",
+            "wrong4": "Bill Gates"
+       },
+       "fact": "The nephew and heir of Julius Caesar, Roman Emperor Augustus, had an estimated net worth of $46 trillion when counting for inflation. Some say that Mansa Musa, king of Timbuktu, was the world's wealthiest man as his wealth was apparently too great to count. However, Augustus's staggering wealth could be measured."
+    },
+
+    {
+        "id": 2,
+        "country": "Italy",
+        "img": "https://free-images.com/lg/1b6c/colosseum_ruin_rome_gladiators.jpg",
+        "question": "The Colosseum got its name from a statue that it was constructed near. What is the name of that statue?",
+        "answers": {
+             "right": "The Colossus of Nero",
+             "wrong1": "Amphitheatrum Flavium",
+             "wrong2": "Colosseo",
+             "wrong3": "Nero",
+             "wrong4": "Julius"
+        },
+        "fact": "The Colosseum was originally known as the Amphitheatrum Flavium, or Flavian Amphitheatre, as it was constructed during the Flavian dynasty. Residents of Rome nicknamed it the Colosseo. This was due to the fact that it was built next to a 164-foot statue of Emperor Nero known as 'The Colossus of Nero.'"  
+    },
+
+    {
+        "id": 3,
+        "country": "Russia",
+        "img": "https://free-images.com/lg/a538/rasputin_pd.jpg",
+        "question": "What was the name of the Russian mystic who survived being poisoned and shot by Russian nobles?",
+        "answers": {
+             "right": "Rasputin",
+             "wrong1": "Malaya",
+             "wrong2": "Tsar",
+             "wrong3": "Tsarina",
+             "wrong4": "Putin"
+        },
+        "fact": "Grigori Rasputin was a Russian mystic and supposed holy man. He became friends with the last Russian Tsar and Tsarina. Over time, he came to influence the Russian royals, much to the displeasure of many members of the Russian nobility. This, combined with his drunkenness and lechery, led to several Russian nobles forming a plot to assassinate the man. They invited him over to one of their houses, gave him cakes and wine laced with cyanide, all to no effect, and then shot him in the chest. They soon realized he was still alive! The nobles proceeded to shoot Rasputin two more times, once in the head. Finally, they threw his body into the frozen Malaya Nevka River."  
+    },
+
+    {
+        "id": 4,
+        "country": "Russia",
+        "img": "https://free-images.com/lg/3872/29_sammlung_eybl_russland.jpg",
+        "question": "What resource did Russia run out of during the end of World War 2?",
+        "answers": {
+             "right": "Vodka",
+             "wrong1": "Bullets",
+             "wrong2": "Soilders",
+             "wrong3": "Communism",
+             "wrong4": "Tanks"
+        },
+        "fact": "After being punched almost all the way back to Moscow by the Nazis and then fighting their way back to Berlin, after the Third Reich's fall, jubilation and street parties engulfed the Soviet Union. Lasting for days, even non-drinkers saw this as cause enough to join in the celebration. That is, until all of the nation's vodka reserves ran out, a mere 22 hours after the celebrations started!"  
+    },
+
+    {
+        "id": 5,
+        "country": "Egypt",
+        "img": "https://free-images.com/lg/3de2/egypt_piramides_giza_1227443.jpg",
+        "question": "When was the Great Pyramid of Giza built?",
+        "answers": {
+             "right": "2560 BC",
+             "wrong1": "10 AD",
+             "wrong2": "1250 BC",
+             "wrong3": "1762 BC",
+             "wrong4": "1859 AD"
+        },
+        "fact": "The Great Pyramid of Giza is a UNESCO-listed World Heritage site, the oldest and last remaining of the original Seven Wonders of the World. Additionally, this pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu. The Pyramid was completed in 2560 BC and took around 20 years to build!"  
+    },
+
+    {
+        "id": 6,
+        "country": "Egypt",
+        "img": "https://free-images.com/lg/4b96/egypt_low_relief_engraving.jpg",
+        "question": "What material did the Ancient Egyptians use to make their pillows with?",
+        "answers": {
+             "right": "Stone",
+             "wrong1": "Marble",
+             "wrong2": "Cloth",
+             "wrong3": "Wood",
+             "wrong4": "Feathers"
+        },
+        "fact": "In Ancient Egypt, the head was considered to be the seat of spiritual life and had to be cared for. Therefore, when getting into bed, the Egyptians would place their heads on a stone with a curve in it. They were also engraved with images of the Gods and placed under the heads of the dead to ward away bad spirits."  
+    },
+
+    {
+        "id": 7,
+        "country": "Japan",
+        "img": "https://orange.japan-talk.com/images/jt/header/american-ships-japan-193-196.jpg",
+        "question": "What country was closed off from the rest of the world between the years 1635-1852?",
+        "answers": {
+             "right": "Japan",
+             "wrong1": "Korea",
+             "wrong2": "Germany",
+             "wrong3": "India",
+             "wrong4": "China"
+        },
+        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel by Japanese, banned Christianity and made Japan off limits to most foreigners. The law was passed after Japan experienced a number of problems after contact with foreign powers. These included Japanese slaves being sent to Europe by the Portuguese, threats to Japanese sovereignty and epidemics such as small pox."
+    },
+
+    {
+        "id": 8,
+        "country": "Japan",
+        "img": "https://free-images.com/lg/8d7a/tokugawa_leyasu_shogun.jpg",
+        "question": "What was the name of the period of Japan between the years 1192 to 1333 where the shogun rule first emerged?",
+        "answers": {
+             "right": "Kamakura",
+             "wrong1": "Kofun",
+             "wrong2": "Nara",
+             "wrong3": "Heian",
+             "wrong4": "Edo"
+        },
+        "fact": "The Kamakura Period in Japan lasted from 1192 to 1333, bringing with it the emergence of shogun rule. Japanese warlords, known as shoguns, claimed power from the hereditary monarchy and their scholar-courtiers, giving the samurai warriors and their lords' ultimate control of the early Japanese empire. Society, too, changed radically, and a new feudal system emerged."  
+    },
+
+    {
+        "id": 9,
+        "country": "Germany",
+        "img": "https://free-images.com/lg/34e4/swastikas_flags_berlin_germany.jpg",
+        "question": "At what year was the Third Reich of Germany abolished?",
+        "answers": {
+             "right": "1945",
+             "wrong1": "1918",
+             "wrong2": "1897",
+             "wrong3": "1963",
+             "wrong4": "1978"
+        },
+        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries. The victorious powers divided Germany into four zones of occupation and later into two countries: the Federal Republic of Germany (West Germany) and the German Democratic Republic (East Germany), separated for more than 40 years by a long boundary."  
+    },
+
+    {
+        "id": 10,
+        "country": "Germany",
+        "img": "https://free-images.com/lg/f1e4/beethoven.jpg",
+        "question": "From what country was the famous composer Ludwig van Beethoven from?",
+        "answers": {
+             "right": "Germany",
+             "wrong1": "Italy",
+             "wrong2": "France",
+             "wrong3": "Denmark",
+             "wrong4": "Sweden"
+        },
+        "fact": "Germany has been called the “Land of Poets and Thinkers.” Germans are famous in all forms of art, but particularly classical music. Germany's famous composers include Bach in the early 1700's, Brahms, Schumann and Wagner in the 1800's and Beethoven in the late 1700's."  
+    }
+]
