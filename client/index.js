@@ -1,9 +1,10 @@
 console.log("Hello World!");
 const timer = document.querySelector('#timer')
+const answers = document.querySelectorAll('.answers')
 
 let countDown = 59
 
-const timerCountDown = () => {
+function timerCountDown(){
 for (let i = 0; i < 60; i++){
     setTimeout(() => {
         timer.textContent = `0:${countDown}`
@@ -12,3 +13,14 @@ for (let i = 0; i < 60; i++){
 }
 }
 
+for (let j = 0; j < answers.length; j++){
+    answers[j].addEventListener('click', newQuestion)
+}
+
+function newQuestion() {
+    setTimeout(() => {
+        countDown = 59
+        'newFetchRequest()'
+        timerCountDown()
+    }, 1000)
+}
