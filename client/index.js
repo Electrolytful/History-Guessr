@@ -35,6 +35,7 @@ async function createOptions() {
 }
 
 createOptions()
+timerCountDown()
 
 
 async function checkAnswer(e) {
@@ -91,7 +92,6 @@ let countDown = 59
 
 function timerCountDown() {
     clearTimeout(timerCountDown)
-    let i = 0
     for (let i = 0; i < 60; i++){
         timerCountDown = setTimeout(() => {
         timer.textContent = `0:${countDown}`
