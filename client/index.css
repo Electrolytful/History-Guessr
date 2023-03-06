@@ -26,17 +26,35 @@ nav{
     line-height: 50px;
     width: 100%;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: burlywood;
 }
 
 h1{
     font-family: 'Caesar Dressing', cursive;
     font-size: xx-large;
+    flex-basis: 70%;
 }
 
-nav > h1, nav > h2, nav> img, nav > h3{
-    height: 50px;
-    display: inline-block;
+nav > img{
+    width: 25px;
+    height: 25px;
+}
+
+nav > #users{
+    padding-left: 5px;
+    flex-basis: 10%;
+}
+
+nav > #timer{
+    flex-basis: 10%;
+}
+
+nav > h1, nav > h2, nav> img, nav > h3, i{
+    /* height: 50px;
+    display: inline-block; */
     margin: 0;
 }
 
