@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>History Guessr</title>
-</head>
-<body>
-    Welcome to History Guessr!
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Assistant:wght@300&family=Caesar+Dressing&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>History Guessr - caesar dressing font</title>
+  </head>
+  <body>
+    <nav>
+      <h1>History Guessr</h1>
+      <!-- <img src="" alt=""><h2>num of usrs</h2> <h2>timer</h2> -->
+    </nav>
+    <main>
+      <h2>Italy</h2>
+      <img
+        id="image"
+        src="https://images.unsplash.com/photo-1576073663821-75f8cebfc3bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        alt="Statue of Augustus Caesar"
+      />
+      <div id="funFact">
+        <h3>Fun Fact about image above</h3>
+      </div>
+    </main>
+    <div id="content">
+      <h3 id="question">Who was the wealthiest man to ever live?</h3>
+      <p class="answers" id="first">Julius Caesar</p>
+      <p class="answers" id="second">Augustus Caesar</p>
+      <p class="answers" id="third">Mansa Musa</p>
+      <p class="answers" id="fourth">Bill Gates</p>
+      <p class="answers" id="fifth">Elon Musk</p>
+      <button>Next</button>
+    </div>
+  </body>
 </html>
