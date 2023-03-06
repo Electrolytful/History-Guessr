@@ -59,7 +59,7 @@ nav > h1, nav > h2, nav> img, nav > h3, i{
 }
 
 main{
-    width: 700px;
+    width: 600px;
     margin-right: 0;
     height: 100vh;
     display: flex;
@@ -75,9 +75,9 @@ h2{
 
 img{
     background-size: cover;
-    height: 350px;
-    width: 500px;
-    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
     margin-bottom: 100px;
 }
 
@@ -92,7 +92,7 @@ img{
     height: 100vh;
     text-align: center;
     color: white;
-    width: 1400px;
+    width: 1500px;
     background-color: #dfdbd1;
     display: inline-block;
 }
@@ -115,7 +115,8 @@ img{
 button{
     margin: 50px;
     background-color: #bd7f14;
-    line-height: 25px;
+    font-size: large;
+    line-height: 30px;
     width: 100px;
     border-radius: 9999px;
     border: none;
