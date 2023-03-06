@@ -18,6 +18,10 @@ body{
     height: 100vh;
 }
 
+h1, h2, h3, p {
+    font-family: 'Assistant', sans-serif;
+}
+
 nav{
     line-height: 50px;
     width: 100%;
