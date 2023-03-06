@@ -12,3 +12,91 @@
 }
 
 /* Rest of the CSS below */
+body{
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+}
+
+h1, h2, h3, p {
+    font-family: 'Assistant', sans-serif;
+}
+
+nav{
+    line-height: 50px;
+    width: 100%;
+    position: absolute;
+    background-color: burlywood;
+}
+
+h1{
+    font-family: 'Caesar Dressing', cursive;
+    font-size: xx-large;
+}
+
+nav > h1, nav > h2, nav> img, nav > h3{
+    height: 50px;
+    display: inline-block;
+    margin: 0;
+}
+
+main{
+    width: 700px;
+    margin-right: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h2{
+    margin-top: 200px;
+}
+
+img{
+    background-size: cover;
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+#funFact{
+    background-color: antiquewhite;
+    line-height: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+#content{
+    height: 100vh;
+    text-align: center;
+    color: white;
+    width: 1400px;
+    background-color: peru;
+    display: inline-block;
+}
+
+#content > h3{
+    margin: 100px;
+    margin-top: 200px;
+    font-size: xx-large;
+}
+
+.answers{
+    line-height: 60px;
+    background-color: azure;
+    color: black;
+    width: 800px;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+button{
+    margin: 50px;
+    line-height: 25px;
+    width: 100px;
+    border-radius: 9999px;
+}
