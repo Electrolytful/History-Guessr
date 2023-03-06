@@ -93,7 +93,7 @@ img{
     text-align: center;
     color: white;
     width: 1400px;
-    background-color: peru;
+    background-color: #dfdbd1;
     display: inline-block;
 }
 
@@ -105,16 +105,18 @@ img{
 
 .answers{
     line-height: 60px;
-    background-color: azure;
+    background-color: white;
     color: black;
     width: 800px;
-    margin: 25px auto;
+    margin: 10px auto;
     border-radius: 10px;
 }
 
 button{
     margin: 50px;
+    background-color: #bd7f14;
     line-height: 25px;
     width: 100px;
     border-radius: 9999px;
+    border: none;
 }
