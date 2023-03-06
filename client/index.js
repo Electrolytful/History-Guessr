@@ -2,6 +2,7 @@
 const country = document.querySelector("#country");
 const fact = document.querySelector("#funFact");
 const question = document.querySelector("#question");
+const timer = document.querySelector('#timer')
 //const answerSelection = document.querySelectorAll(".answers");
 const answer1 = document.querySelector("#first");
 const answer2 = document.querySelector("#second");
@@ -13,7 +14,7 @@ const button = document.querySelector("button")
 let points = 0;
 
 //answerSelection.addEventListener("click", checkAnswer);
-button.addEventListener("submit", nextQuestion);
+button.addEventListener("click", newQuestion);
 
 async function createOptions() {
     const data = await fetch ("http://localhost:4000/questions/random");
@@ -77,11 +78,45 @@ async function checkAnswer(e) {
 
 
 
-async function nextQuestion() {
+// async function nextQuestion() {
 
-    console.log('yay it works')
+//     console.log('yay it works')
 
     
+// }
+
+
+
+let countDown = 59
+
+function timerCountDown() {
+    clearTimeout(timerCountDown)
+    let i = 0
+    for (let i = 0; i < 60; i++){
+        timerCountDown = setTimeout(() => {
+        timer.textContent = `0:${countDown}`
+        countDown -= 1
+    },i*1000)
+    }
 }
 
+function newQuestion() {
+    setTimeout(() => {
+        countDown = 59
+        createOptions()
+    }, 1000)
+    timerCountDown()
+}
 
+/*
+calls newQuestion function after some time after selecting an answer
+const answers = document.querySelectorAll('.answers')
+for (let j = 0; j < answers.length; j++){
+    answers[j].addEventListener('click', newQuestion)
+*/
+
+/*
+calls newQuestion by clicking the next button
+const next = document.querySelector('#next')
+next.addEventListener('click', newQuestion)
+*/
