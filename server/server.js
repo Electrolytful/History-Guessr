@@ -28,17 +28,35 @@ app.get('/questions', async (req, res, next) => {
     next();
 })
 
+let questionAnswered = [];
 // route to get a random question from the array of questions
 app.get('/questions/random', async (req, res, next) => {
     // assigning a random number in the range of the number of elements in the questions array
     let number = Math.floor(Math.random() * questions.length);
+    let exists = true;
+
+    if(questionAnswered.length === questions.length) {
+        questionAnswered = [];
+    }
 
     if(!questions || !questions.length) {
         res.status(404).send();
-    } else {
-        res.status(200).send(questions[number]);
     }
 
+    if(!questionAnswered.length) {
+        exists = false;
+    }
+    
+    while(exists) {
+        if(questionAnswered.includes(questions[number].id)) {
+            number = Math.floor(Math.random() * questions.length); 
+        } else {
+            exists = false;
+        }
+    }
+
+    questionAnswered.push(questions[number].id);
+    res.status(200).send(questions[number]);
     next();
 })
 
