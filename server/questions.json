@@ -11,7 +11,7 @@
             "wrong3": "Elon Musk",
             "wrong4": "Bill Gates"
        },
-       "fact": "The nephew and heir of Julius Caesar, Roman Emperor Augustus, had an estimated net worth of $46 trillion when counting for inflation. Some say that Mansa Musa, king of Timbuktu, was the world's wealthiest man as his wealth was apparently too great to count. However, Augustus's staggering wealth could be measured."
+       "fact": "The nephew and heir of Julius Caesar, Roman Emperor Augustus, had an estimated net worth of $46 trillion when counting for inflation."
     },
 
     {
@@ -54,7 +54,7 @@
             "wrong3": "Donatello",
             "wrong4": "Caravaggio"
         },
-        "fact": "Michelangelo Buonarroti painted the ceiling of the Sistine Chapel in Vatican City between 1508 and 1512. The ceiling is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
+        "fact": "The ceiling is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
     },
     {
         "id": 5,
@@ -68,7 +68,7 @@
             "wrong3": "Milan",
             "wrong4": "Naples"
         },
-        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century. It was a period of great cultural and artistic achievements and saw the development of new ideas in science, philosophy, and art."
+        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century."
     },
     {
         "id": 6,
@@ -97,7 +97,7 @@
              "wrong3": "Tsarina",
              "wrong4": "Putin"
         },
-        "fact": "Grigori Rasputin was a Russian mystic and supposed holy man. He became friends with the last Russian Tsar and Tsarina. Over time, he came to influence the Russian royals, much to the displeasure of many members of the Russian nobility. This, combined with his drunkenness and lechery, led to several Russian nobles forming a plot to assassinate the man. They invited him over to one of their houses, gave him cakes and wine laced with cyanide, all to no effect, and then shot him in the chest. They soon realized he was still alive! The nobles proceeded to shoot Rasputin two more times, once in the head. Finally, they threw his body into the frozen Malaya Nevka River."  
+        "fact": "Rasputing was the target of assasination in which several nobles gave him cakes and wine laced with cyanide, all to no effect, and then shot him in the chest. They soon realized he was still alive!"  
     },
 
     {
@@ -126,7 +126,7 @@
             "wrong3": "Boris Yeltsin",
             "wrong4": "Vladimir Putin"
         },
-        "fact": "Vladimir Lenin was the founder and first leader of the Soviet Union, serving as head of government from when the Russian Empire was dissolved and became the Soviet Union in 1917 until his death in 1924."
+        "fact": "Valdimir served as head of government from when the Russian Empire was dissolved and became the Soviet Union in 1917 until his death in 1924."
     },
     {
         "id": 10,
@@ -154,7 +154,7 @@
             "wrong3": "Catherine the Great",
             "wrong4": "Alexander II"
         },
-        "fact": "Ivan Vasilyevich or Ivan IV was the first Tsar of All the Russias and Grand Prince of Moscow. He is popularly known as Ivan the Terrible or Ivan the Fearsome for his explosive temper."
+        "fact": "Ivan IV was the first Tsar of All the Russias and Grand Prince of Moscow. He is popularly known as Ivan the Terrible or Ivan the Fearsome for his explosive temper."
     },
     {
         "id": 12,
@@ -183,7 +183,7 @@
              "wrong3": "1762 BC",
              "wrong4": "1859 AD"
         },
-        "fact": "The Great Pyramid of Giza is a UNESCO-listed World Heritage site, the oldest and last remaining of the original Seven Wonders of the World. Additionally, this pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu. The Pyramid was completed in 2560 BC and took around 20 years to build!"  
+        "fact": "This pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu."  
     },
 
     {
@@ -198,7 +198,7 @@
              "wrong3": "Wood",
              "wrong4": "Feathers"
         },
-        "fact": "In Ancient Egypt, the head was considered to be the seat of spiritual life and had to be cared for. Therefore, when getting into bed, the Egyptians would place their heads on a stone with a curve in it. They were also engraved with images of the Gods and placed under the heads of the dead to ward away bad spirits."  
+        "fact": "In Ancient Egypt, the head was considered to be the seat of spiritual life and had to be cared for. Therefore, when getting into bed, the Egyptians would place their heads on a stone with a curve in it."  
     },
     {
         "id": 15,
@@ -217,7 +217,7 @@
     {
         "id": 16,
         "country": "Egypt",
-        "img": "https://images.unsplash.com/photo-1575783402312-883c35cad34b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80",
+        "img": "https://prabook.com/web/show-photo.jpg?id=2829293",
         "question": "Who was the last pharaoh of Egypt?",
         "answers": {
             "right": "Cleopatra VII",
@@ -269,7 +269,7 @@
              "wrong3": "India",
              "wrong4": "China"
         },
-        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel by Japanese, banned Christianity and made Japan off limits to most foreigners. The law was passed after Japan experienced a number of problems after contact with foreign powers. These included Japanese slaves being sent to Europe by the Portuguese, threats to Japanese sovereignty and epidemics such as small pox."
+        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel and made Japan off limits to most foreigners."
     },
 
     {
@@ -284,7 +284,7 @@
              "wrong3": "Heian",
              "wrong4": "Edo"
         },
-        "fact": "The Kamakura Period in Japan lasted from 1192 to 1333, bringing with it the emergence of shogun rule. Japanese warlords, known as shoguns, claimed power from the hereditary monarchy and their scholar-courtiers, giving the samurai warriors and their lords' ultimate control of the early Japanese empire. Society, too, changed radically, and a new feudal system emerged."  
+        "fact": "The Kamakura Period in Japan lasted from 1192 to 1333, bringing with it the emergence of shogun rule."  
     },
     {
         "id": 21,
@@ -312,7 +312,7 @@
             "wrong3": "Tokugawa Ieyasu",
             "wrong4": "Date Masamune"
         },
-        "fact": "Minamoto no Yoritomo was known for being an excellent archer, and it is said that he once shot a target from over 100 yards away while riding on horseback. He also created a unique style of mounted archery known as yabusame, which is still performed in Japan today."
+        "fact": "Minamoto no Yoritomo was known for being an excellent archer, and it is said that he once shot a target from over 100 yards away while riding on horseback."
     },
     {
         "id": 23,
@@ -355,7 +355,7 @@
              "wrong3": "1963",
              "wrong4": "1978"
         },
-        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries. The victorious powers divided Germany into four zones of occupation and later into two countries: the Federal Republic of Germany (West Germany) and the German Democratic Republic (East Germany), separated for more than 40 years by a long boundary."  
+        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries."  
     },
 
     {
@@ -370,7 +370,7 @@
              "wrong3": "Denmark",
              "wrong4": "Sweden"
         },
-        "fact": "Germany has been called the “Land of Poets and Thinkers.” Germans are famous in all forms of art, but particularly classical music. Germany's famous composers include Bach in the early 1700's, Brahms, Schumann and Wagner in the 1800's and Beethoven in the late 1700's."  
+        "fact": "Germany has been called the “Land of Poets and Thinkers.” Germans are famous in all forms of art, but particularly classical music."  
     },
     {
         "id": 27,
