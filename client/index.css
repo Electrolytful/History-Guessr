@@ -61,7 +61,7 @@ nav > h1, nav > h2, nav> img, nav > h3, i{
 }
 
 main{
-    flex-basis: 30%;
+    flex-basis: 35%;
     margin-right: 0;
     height: 100vh;
     display: flex;
@@ -71,25 +71,33 @@ main{
 }
 
 #countryDiv{
-    height: 25%;
+    height: 15%;
 }
 
 #country{
-    line-height: 400px;
+    line-height: 250px;
     font-size: xx-large;
     font-weight: 800;
     color: #bd7f14;
 }
 
 img{
-    background-size: cover;
+  
     height: 300px;
-    width: 450px;
+    width: 450px; 
+    max-width: 500px;
+    max-height: 300px;
+}
+
+#image-box {
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 100px;
+    height: 70%;
 }
 
 #funFact{
+    display: none;
     background-color: rgb(255, 173, 67);
     height: 20%;
     line-height: 150px;
@@ -101,7 +109,7 @@ img{
     height: 100vh;
     text-align: center;
     color: white;
-    flex-basis: 70%;
+    flex-basis: 65%;
     background-color: #dfdbd1;
     display: inline-block;
 }
