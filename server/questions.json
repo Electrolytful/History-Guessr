@@ -81,7 +81,8 @@
             "wrong2": "Benito Mussolini",
             "wrong3": "Leonardo da Vinci",
             "wrong4": "Christopher Columbus"
-        }
+        },
+        "fact": "Niccolo Machiavelli was a Florentine writer, philosopher, and politician who lived from 1469 to 1527. He is best known for his book 'The Prince', which has had a profound impact on political philosophy and ethics."
     },
 
     {
@@ -124,7 +125,8 @@
             "wrong2": "Nikita Khrushchev",
             "wrong3": "Boris Yeltsin",
             "wrong4": "Vladimir Putin"
-        }
+        },
+        "fact": "Vladimir Lenin was the founder and first leader of the Soviet Union, serving as head of government from when the Russian Empire was dissolved and became the Soviet Union in 1917 until his death in 1924."
     },
     {
         "id": 10,
@@ -137,7 +139,8 @@
             "wrong2": "The Chernobyl disaster",
             "wrong3": "The invasion of Afghanistan",
             "wrong4": "The death of Stalin"
-        }
+        },
+        "fact": "The Berlin Wall was a symbol of the Cold War and the division between East and West."
     },
     {
         "id": 11,
@@ -150,7 +153,8 @@
             "wrong2": "Nicholas II",
             "wrong3": "Catherine the Great",
             "wrong4": "Alexander II"
-        }
+        },
+        "fact": "Ivan Vasilyevich or Ivan IV was the first Tsar of All the Russias and Grand Prince of Moscow. He is popularly known as Ivan the Terrible or Ivan the Fearsome for his explosive temper."
     },
     {
         "id": 12,
@@ -163,7 +167,8 @@
             "wrong2": "Vladimir Putin",
             "wrong3": "Dmitry Medvedev",
             "wrong4": "Leonid Brezhnev"
-        }
+        },
+        "fact": "As a boy, he lost two fingers from his left hand after he and his friends played with grenades they had stolen from an army store."
     },
     
     {
@@ -206,7 +211,8 @@
             "wrong2": "The Lighthouse of Alexandria",
             "wrong3": "The Hanging Gardens of Babylon",
             "wrong4": "The Temple of Artemis at Ephesus"
-        }
+        },
+        "fact": "The Pyramids of Giza were built more than 1,200 years before the rule of King Tut"
     },
     {
         "id": 16,
@@ -219,7 +225,8 @@
             "wrong2": "Nefertiti",
             "wrong3": "Hatshepsut",
             "wrong4": "Tutankhamun"
-        }
+        },
+        "fact": "Cleopatra was living in Rome as Caesar's mistress at the time of his violent death in 44 BC"
     },
     {
         "id": 17,
@@ -232,7 +239,8 @@
             "wrong2": "The Mississippi",
             "wrong3": "The Danube",
             "wrong4": "The Thames"
-        }
+        },
+        "fact": "The Nile is often associated with Egypt, but in fact, it flows through 11 countries"
     },
     {
         "id": 18,
@@ -245,7 +253,8 @@
             "wrong2": "Atheism",
             "wrong3": "Christianity",
             "wrong4": "Islam"
-        }
+        },
+        "fact": "Polytheism characterizes virtually all religions other than Judaism, Christianity, and Islam"
     },
 
     {
@@ -288,7 +297,8 @@
             "wrong2": "Hanbok",
             "wrong3": "Cheongsam",
             "wrong4": "Ao dai"
-        }
+        },
+        "fact": "About a century ago, most people in Japan wore kimono every day."
     },
     {
         "id": 22,
@@ -301,7 +311,8 @@
             "wrong2": "Toyotomi Hideyoshi",
             "wrong3": "Tokugawa Ieyasu",
             "wrong4": "Date Masamune"
-        }
+        },
+        "fact": "Minamoto no Yoritomo was known for being an excellent archer, and it is said that he once shot a target from over 100 yards away while riding on horseback. He also created a unique style of mounted archery known as yabusame, which is still performed in Japan today."
     },
     {
         "id": 23,
@@ -314,7 +325,8 @@
             "wrong2": "Mount Kilimanjaro",
             "wrong3": "Mount McKinley",
             "wrong4": "Mount Rainier"
-        }
+        },
+        "fact": "Mount Fuji is considered a sacred site in Japan and has been a pilgrimage destination for centuries."
     },
     {
         "id": 24,
@@ -327,7 +339,8 @@
             "wrong2": "Sado",
             "wrong3": "Teaism",
             "wrong4": "Zen tea"
-        }
+        },
+        "fact": "The act of preparing and drinking matcha, the powdered green tea used in the ceremony, is a choreographed art requiring many years of study to master."
     },
     
     {
@@ -370,7 +383,8 @@
             "wrong2": "Christian Democratic Union",
             "wrong3": "Free Democratic Party",
             "wrong4": "Green Party"
-        }
+        },
+        "fact": "The Nazis offered a bounty for Albert Einstein's assassination."
     },
     {
         "id": 28,
@@ -383,7 +397,8 @@
             "wrong2": "Helmut Kohl",
             "wrong3": "Gerhard Schröder",
             "wrong4": "Wilhelm II"
-        }
+        },
+        "fact": "Under his leadership, Germany achieved unprecedented levels of prosperity, democracy, stability and respect."
     },
     {
         "id": 29,
@@ -396,7 +411,8 @@
             "wrong2": "Ludwig van Beethoven",
             "wrong3": "Franz Schubert",
             "wrong4": "George Frideric Handel"
-        }
+        },
+        "fact": "His father, Johann Ambrosius Bach was a 7th generation musician, and carried on the tradition by teaching him how to play the violin."
     },
     {
         "id": 30,
@@ -409,6 +425,7 @@
             "wrong2": "Hadrian's Wall",
             "wrong3": "Wall of Troy",
             "wrong4": "Ming Great Wall"
-        }
+        },
+        "fact": "The Berlin Wall ran 96 miles in length"
     }    
 ]
