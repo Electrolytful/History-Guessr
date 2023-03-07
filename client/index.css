@@ -27,9 +27,8 @@ nav{
     line-height: 50px;
     height: 5%;
     width: 100vw;
-    
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: burlywood;
 }
@@ -40,21 +39,22 @@ h1{
     flex-basis: 70%;
 }
 
-nav > img{
+.score {
+    display: flex;
+    align-items: center;
+}
+
+.score > img{
     width: 25px;
     height: 25px;
 }
 
-nav > #users{
+.score > #users{
     padding-left: 5px;
     flex-basis: 10%;
 }
 
-nav > #timer{
-    flex-basis: 10%;
-}
-
-nav > h1, nav > h2, nav> img, nav > h3, i{
+nav > h1, .score > h2, .score > img, i {
     /* height: 50px;
     display: inline-block; */
     margin: 0;
