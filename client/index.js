@@ -2,90 +2,63 @@
 const country = document.querySelector("#country");
 const fact = document.querySelector("#funFact");
 const question = document.querySelector("#question");
-const timer = document.querySelector('#timer')
-//const answerSelection = document.querySelectorAll(".answers");
-const answer1 = document.querySelector("#first");
-const answer2 = document.querySelector("#second");
-const answer3 = document.querySelector("#third");
-const answer4 = document.querySelector("#fourth");
-const answer5 = document.querySelector("#fifth");
-const button = document.querySelector("button")
+const timer = document.querySelector('#timer');
+const button = document.querySelector("button");
+const answersDiv = document.querySelector(".answersDiv");
 
 let points = 0;
 
-//answerSelection.addEventListener("click", checkAnswer);
 button.addEventListener("click", newQuestion);
-
-async function createOptions() {
-    const data = await fetch ("http://localhost:4000/questions/random");
-    const allData = await data.json();
-
-    country.innerHTML = allData.country;
-
-    document.getElementById("image").src = allData.img;
-
-    question.innerHTML = allData.question;
-
-    answer1.innerHTML = allData.answers.right;
-    //console.log(allData.answers.right)
-    answer2.innerHTML = allData.answers.wrong1;
-    answer3.innerHTML = allData.answers.wrong2;
-    answer4.innerHTML = allData.answers.wrong3;
-    answer5.innerHTML = allData.answers.wrong4;
-}
 
 createOptions()
 timerCountDown()
 
 
-async function checkAnswer(e) {
-    // find correct answer in database
+
+
+async function createOptions() {
+    answersDiv.innerHTML = "";
+    optionPicked = false;
+
     const data = await fetch ("http://localhost:4000/questions/random");
     const allData = await data.json();
-    const correctAnswer = allData.answers.right;
-    let response = e.target.answerSelection.answer1;
 
-    //if(correctAnswer === response) {
+    country.innerHTML = allData.country;
+    document.getElementById("image").src = allData.img;
+    question.innerHTML = allData.question;
 
+    const answers = Object.entries(allData.answers);
+    shuffle(answers);
     
+    answers.forEach(ans => {
+        const p = document.createElement('p');
+            p.classList.add("answers");
+            p.innerText = ans[1];
 
-    
-    
-    
-    
-    
-    //console.log(correctAnswer);
+            if(ans[0] === "right") {
+                p.addEventListener("click", () => {
+                    if(!optionPicked) {
+                        p.classList.add("green");
+                        optionPicked = true;
+                    }
+                })
+            } else {
+                p.addEventListener("click", () => {
+                    if(!optionPicked){
+                        p.classList.add("red");
+                        optionPicked = true;
+                    }
+                })
+            }
 
-
-
-    // console.log(correctAnswer)
-
-    // specify chosen answer by user
-
-    // compare user vs database
-
-
-    // if correct, change to green
-
-
-
-    //show fact section
-
-
-
+            answersDiv.appendChild(p);
+    })
 }
 
-//checkAnswer();
 
-
-
-// async function nextQuestion() {
-
-//     console.log('yay it works')
-
-    
-// }
-
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
+}
 
 
 let countDown = 59
@@ -107,16 +80,3 @@ function newQuestion() {
     }, 1000)
     timerCountDown()
 }
-
-/*
-calls newQuestion function after some time after selecting an answer
-const answers = document.querySelectorAll('.answers')
-for (let j = 0; j < answers.length; j++){
-    answers[j].addEventListener('click', newQuestion)
-*/
-
-/*
-calls newQuestion by clicking the next button
-const next = document.querySelector('#next')
-next.addEventListener('click', newQuestion)
-*/

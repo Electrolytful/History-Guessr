@@ -138,3 +138,20 @@ button{
     border: none;
     cursor: pointer;
 }
+
+.green {
+    background-color: #17B729;
+}
+
+.red {
+    background-color: #C41717;
+}
+
+.green:hover {
+    background-color: #17B729;
+}
+
+.red:hover {
+    background-color: #C41717;
+}
+
