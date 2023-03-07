@@ -92,7 +92,9 @@ img{
 #funFact{
     background-color: rgb(255, 173, 67);
     height: 20%;
-    line-height: 150px;
+    padding: 15px 50px;
+    font-size: larger;
+    font-weight: 400;
     text-align: center;
     width: 100%;
 }

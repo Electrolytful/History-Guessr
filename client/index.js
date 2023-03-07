@@ -24,6 +24,7 @@ async function createOptions() {
     const allData = await data.json();
 
     country.innerHTML = allData.country;
+    fact.textContent = allData.fact;
     document.getElementById("image").src = allData.img;
     question.innerHTML = allData.question;
 
