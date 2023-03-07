@@ -39,7 +39,8 @@
             "wrong2": "Benito Mussolini",
             "wrong3": "Leonardo da Vinci",
             "wrong4": "Christopher Columbus"
-        }
+        },
+        "fact": "Victor Emmanuel II was the first king of a united Italy since the 6th century, and he played a crucial role in the unification of Italy. He ruled from 1861 until his death in 1878."
     },
     {
         "id": 4,
@@ -52,7 +53,8 @@
             "wrong2": "Raphael",
             "wrong3": "Donatello",
             "wrong4": "Caravaggio"
-        }
+        },
+        "fact": "Michelangelo Buonarroti painted the ceiling of the Sistine Chapel in Vatican City between 1508 and 1512. The ceiling is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
     },
     {
         "id": 5,
@@ -65,7 +67,8 @@
             "wrong2": "Venice",
             "wrong3": "Milan",
             "wrong4": "Naples"
-        }
+        },
+        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century. It was a period of great cultural and artistic achievements and saw the development of new ideas in science, philosophy, and art."
     },
     {
         "id": 6,
