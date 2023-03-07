@@ -63,7 +63,7 @@ nav > h1, nav > h2, nav> img, nav > h3, i{
 main{
     flex-basis: 30%;
     margin-right: 0;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -71,11 +71,11 @@ main{
 }
 
 #countryDiv{
-    height: 25%;
+    height: 20%;
 }
 
 #country{
-    line-height: 400px;
+    line-height: 250px;
     font-size: xx-large;
     font-weight: 800;
     color: #bd7f14;
@@ -83,21 +83,28 @@ main{
 
 img{
     background-size: cover;
-    height: 300px;
+    height: 350px;
     width: 450px;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 #funFact{
     background-color: rgb(255, 173, 67);
-    height: 20%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    font-size: larger;
+    font-weight: 900;
     text-align: center;
     width: 100%;
 }
 
+
 #content{
-    height: 100vh;
+    height: 95vh;
     text-align: center;
     color: white;
     flex-basis: 70%;
@@ -109,18 +116,21 @@ img{
     margin: 100px;
     color: #bd7f14;
     font-weight: 800;
-    margin-top: 200px;
+    margin-top: 160px;
     font-size: xx-large;
+    margin-bottom: 75px;
 }
 
 .answers{
     line-height: 60px;
     background-color: white;
     color: black;
-    width: 800px;
+    width: 600px;
     margin: 10px auto;
     border-radius: 10px;
     cursor: pointer;
+    font-size: x-large;
+    font-weight: 400;
 }
 
 .answers:hover{
