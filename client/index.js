@@ -92,11 +92,11 @@ let countDown = 59
 
 function timerCountDown() {
     clearTimeout(timerCountDown)
-    for (let i = 0; i < 60; i++){
-        timerCountDown = setTimeout(() => {
-        timer.textContent = `0:${countDown}`
-        countDown -= 1
-    },i*1000)
+    for (let i = 0; i < 6000; i++){
+            timerCountDown = setTimeout(() => {
+                timer.textContent = `0:${countDown}`
+                countDown -= 1
+                }, i * 1000)
     }
 }
 
