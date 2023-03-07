@@ -2,17 +2,15 @@
 const country = document.querySelector("#country");
 const fact = document.querySelector("#funFactContent");
 const question = document.querySelector("#question");
-const timer = document.querySelector('#timer');
 const users = document.querySelector("#users");
 const button = document.querySelector("button");
 const answersDiv = document.querySelector(".answersDiv");
 
 let points = 0;
 
-button.addEventListener("click", newQuestion);
-
 createOptions()
-timerCountDown()
+
+button.addEventListener("click", createOptions);
 
 
 
@@ -65,23 +63,3 @@ function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
 }
 
-
-let countDown = 59
-
-function timerCountDown() {
-    clearTimeout(timerCountDown)
-    for (let i = 0; i < 6000; i++){
-            timerCountDown = setTimeout(() => {
-                timer.textContent = `0:${countDown}`
-                countDown -= 1
-                }, i * 1000)
-    }
-}
-
-function newQuestion() {
-    setTimeout(() => {
-        countDown = 59
-        createOptions()
-    }, 1000)
-    timerCountDown()
-}
