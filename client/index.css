@@ -71,33 +71,27 @@ main{
 }
 
 #countryDiv{
-    height: 15%;
+    height: 25%;
 }
 
 #country{
-    line-height: 250px;
+    line-height: 400px;
     font-size: xx-large;
     font-weight: 800;
     color: #bd7f14;
 }
 
-img{
-  
+img{  
+    background-size: cover;
     height: 300px;
     width: 450px; 
-    max-width: 500px;
-    max-height: 300px;
-}
-
-#image-box {
-    background-size: cover;
     border-radius: 10px;
     margin-bottom: 100px;
-    height: 70%;
 }
 
+
+
 #funFact{
-    display: none;
     background-color: rgb(255, 173, 67);
     height: 20%;
     text-align: center;
