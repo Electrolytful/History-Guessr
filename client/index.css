@@ -94,7 +94,7 @@ img{
     height: 20%;
     padding: 15px 50px;
     font-size: larger;
-    font-weight: 400;
+    font-weight: 900;
     text-align: center;
     width: 100%;
 }
@@ -120,10 +120,12 @@ img{
     line-height: 60px;
     background-color: white;
     color: black;
-    width: 800px;
+    width: 600px;
     margin: 10px auto;
     border-radius: 10px;
     cursor: pointer;
+    font-size: larger;
+    font-weight: 400;
 }
 
 .answers:hover{

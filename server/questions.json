@@ -68,7 +68,7 @@
             "wrong3": "Milan",
             "wrong4": "Naples"
         },
-        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century. It was a period of great cultural and artistic achievements and saw the development of new ideas in science, philosophy, and art."
+        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century."
     },
     {
         "id": 6,
@@ -217,7 +217,7 @@
     {
         "id": 16,
         "country": "Egypt",
-        "img": "https://images.unsplash.com/photo-1575783402312-883c35cad34b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80",
+        "img": "https://prabook.com/web/show-photo.jpg?id=2829293",
         "question": "Who was the last pharaoh of Egypt?",
         "answers": {
             "right": "Cleopatra VII",
@@ -269,7 +269,7 @@
              "wrong3": "India",
              "wrong4": "China"
         },
-        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel by Japanese, banned Christianity and made Japan off limits to most foreigners."
+        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel and made Japan off limits to most foreigners."
     },
 
     {
