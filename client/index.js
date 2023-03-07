@@ -1,8 +1,9 @@
 
 const country = document.querySelector("#country");
-const fact = document.querySelector("#funFact");
+const fact = document.querySelector("#funFactContent");
 const question = document.querySelector("#question");
 const timer = document.querySelector('#timer');
+const users = document.querySelector("#users");
 const button = document.querySelector("button");
 const answersDiv = document.querySelector(".answersDiv");
 
@@ -15,18 +16,17 @@ timerCountDown()
 
 
 
-
 async function createOptions() {
     answersDiv.innerHTML = "";
+    fact.innerHTML = "";
     optionPicked = false;
 
     const data = await fetch ("http://localhost:4000/questions/random");
     const allData = await data.json();
 
     country.innerHTML = allData.country;
-    fact.textContent = allData.fact;
-    document.getElementById("image").src = allData.img;
     question.innerHTML = allData.question;
+    document.getElementById("image").src = allData.img;
 
     const answers = Object.entries(allData.answers);
     shuffle(answers);
@@ -41,6 +41,8 @@ async function createOptions() {
                     if(!optionPicked) {
                         p.classList.add("green");
                         optionPicked = true;
+                        users.innerText++;
+                        fact.innerText = allData.fact;
                     }
                 })
             } else {
@@ -48,6 +50,8 @@ async function createOptions() {
                     if(!optionPicked){
                         p.classList.add("red");
                         optionPicked = true;
+                        users.innerText--;
+                        fact.innerText = allData.fact;
                     }
                 })
             }
