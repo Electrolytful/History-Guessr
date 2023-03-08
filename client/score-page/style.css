@@ -5,15 +5,18 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-image: url('https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/I/A/IAX10-0027.jpg');
+    background-size: cover;
+    backdrop-filter: grayscale(50%);
+    height: 100vh;
 }
 
 
 #score{
     height: 200px;
     width: 200px;
-    border-radius: 50%;
-    border: 20px solid rgb(104,180,46);
-    background-color: white;
+    color: brown;
+    font-family: 'Caesar Dressing', cursive;
     text-align: center;
     display: flex;
     align-items: center;
@@ -26,27 +29,37 @@ h2{
     font-weight: 400;
 }
 
-#scorePanels{
+#score-panels{
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
     border-top: 1px solid lightgray;
     margin-top: 50px;
-    height: 450px;
+    overflow: hidden;
+    height: 500px;
+    width: 80%;
+}
+
+#score-panels-inner{
     width: 100%;
+    overflow: auto;
+    padding-left: 50px;
+    height: 100%;
 }
 
 .answer{
     margin-bottom: 50px;
-    margin-left: 100px;
-    margin: 0 auto;
-    width: 70%;
+    width: 100%;
     position: relative;
-
 }
 
 .tag{
     position: absolute;
-    width: 76px;
+    width: 75px;
     height: 25px;
-    background-color: grey;
-    right: 20px;
+    background-color: rgb(104,180,46);
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    right: 100px;
     top: 0;
 }
