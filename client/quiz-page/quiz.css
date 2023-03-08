@@ -166,3 +166,7 @@ button{
     background-color: #C41717;
 }
 
+
+#submit {
+    display: none;
+}
