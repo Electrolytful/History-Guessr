@@ -12,7 +12,7 @@ createOptions()
 
 button.addEventListener("click", createOptions);
 
-
+let userResponse = []
 
 async function createOptions() {
     answersDiv.innerHTML = "";
@@ -34,6 +34,7 @@ async function createOptions() {
             p.classList.add("answers");
             p.innerText = ans[1];
 
+
             if(ans[0] === "right") {
                 p.addEventListener("click", () => {
                     if(!optionPicked) {
@@ -41,6 +42,13 @@ async function createOptions() {
                         optionPicked = true;
                         users.innerText++;
                         fact.innerText = allData.fact;
+                        //grab question, answer, correct value/not
+                        userResponse.push({
+                            question: allData.question,
+                            answerSelected: ans[1],
+                            correctAnswer: ans[1],
+                        })
+
                     }
                 })
             } else {
@@ -50,13 +58,21 @@ async function createOptions() {
                         optionPicked = true;
                         users.innerText--;
                         fact.innerText = allData.fact;
+                        userResponse.push({
+                            question: allData.question, 
+                            answerSelected: ans[1],
+                            correctAnswer: allData.answers.right
+                        })
                     }
                 })
+                
             }
 
             answersDiv.appendChild(p);
     })
 }
+
+
 
 
 function shuffle(array) {
