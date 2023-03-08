@@ -42,7 +42,6 @@ async function createOptions() {
                         optionPicked = true;
                         users.innerText++;
                         fact.innerText = allData.fact;
-                        //grab question, answer, correct value/not
                         userResponse.push({
                             question: allData.question,
                             answerSelected: ans[1],
