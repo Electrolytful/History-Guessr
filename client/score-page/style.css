@@ -56,10 +56,14 @@ h2{
     position: absolute;
     width: 75px;
     height: 25px;
-    background-color: rgb(104,180,46);
+    background-color: rgb(180, 51, 46);
     color: white;
     line-height: 25px;
     text-align: center;
     right: 100px;
     top: 0;
+}
+
+.correct{
+    background-color: rgb(104,180,46);
 }
