@@ -3,18 +3,30 @@ const country = document.querySelector("#country");
 const fact = document.querySelector("#funFactContent");
 const question = document.querySelector("#question");
 const users = document.querySelector("#users");
-const button = document.querySelector("button");
+const button = document.querySelector("#next");
+const submitButton = document.querySelector("#submit");
 const answersDiv = document.querySelector(".answersDiv");
 
-let points = 0;
+let count = 0;
 
-createOptions()
+createOptions();
 
 button.addEventListener("click", createOptions);
+submitButton.addEventListener("click", () => {
+    localStorage["responseData"] = JSON.stringify(userResponse)
+})
 
-let userResponse = []
+let userResponse = [];
+
+function countCounter() {
+    if(count === 10) {
+        button.style.display = "none";
+        submitButton.style.display = "inline-block";
+    }
+}
 
 async function createOptions() {
+    countCounter();
     answersDiv.innerHTML = "";
     fact.innerHTML = "";
     optionPicked = false;
@@ -40,7 +52,8 @@ async function createOptions() {
                     if(!optionPicked) {
                         p.classList.add("green");
                         optionPicked = true;
-                        users.innerText++;
+                        users.innerText = parseInt(users.innerText) + 1000;
+                        count += 1;
                         fact.innerText = allData.fact;
                         userResponse.push({
                             question: allData.question,
@@ -55,7 +68,10 @@ async function createOptions() {
                     if(!optionPicked){
                         p.classList.add("red");
                         optionPicked = true;
-                        users.innerText--;
+                        if(users.innerText > 0) {
+                            users.innerText = parseInt(users.innerText) - 500;
+                        }
+                        count += 1;
                         fact.innerText = allData.fact;
                         userResponse.push({
                             question: allData.question, 
@@ -78,3 +94,4 @@ function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
 }
 
+localStorage["responseData"] = JSON.stringify(userResponse)
