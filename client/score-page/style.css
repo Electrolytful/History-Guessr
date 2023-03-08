@@ -7,7 +7,7 @@ body{
     overflow: hidden;
     background-image: url('https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/I/A/IAX10-0027.jpg');
     background-size: cover;
-    backdrop-filter: grayscale(50%);
+    backdrop-filter: blur(2px);
     height: 100vh;
 }
 
@@ -30,8 +30,8 @@ h2{
 }
 
 #score-panels{
-    background-color: rgba(255, 255, 255, 0.151);
     border-radius: 10px;
+    background-color: rgba(234, 224, 205, 0.199);
     border-top: 1px solid lightgray;
     margin-top: 50px;
     overflow: hidden;

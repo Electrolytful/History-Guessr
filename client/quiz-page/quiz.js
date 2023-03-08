@@ -71,10 +71,11 @@ async function createOptions() {
     })
 }
 
-
-
-
 function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
 }
+const submit = document.querySelector('#submit')
 
+submit.addEventListener('click', function () {
+    localStorage["responseData"] = JSON.stringify(userResponse)
+})
