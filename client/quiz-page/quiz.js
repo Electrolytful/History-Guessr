@@ -19,7 +19,7 @@ submitButton.addEventListener("click", () => {
 let userResponse = [];
 
 function countCounter() {
-    if(count === 10) {
+    if(count === 9) {
         button.style.display = "none";
         submitButton.style.display = "inline-block";
     }
