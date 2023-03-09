@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+:root {
+    --mustard-yellow: #bd7f14;
+    --butterscotch-tan: #FFAD43;
+    --correct-green: #17B729;
+    --incorrect-red: #C41717;
+}
 
 body{
     display: flex;
@@ -9,8 +22,12 @@ body{
     background-size: cover;
     backdrop-filter: blur(2px);
     height: 100vh;
+    font-family: 'Assistant', sans-serif;
 }
 
+h1 {
+    user-select: none; 
+}
 
 #score{
     height: 200px;
@@ -23,12 +40,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 #score-panels{
     border-radius: 10px;
     background-color: rgba(234, 224, 205, 0.199);
-    border-top: 1px solid lightgray;
+    border-top: 1px solid grey;
     margin-top: 50px;
     overflow: hidden;
     height: 500px;
@@ -38,8 +56,14 @@ body{
 #score-panels-inner{
     width: 100%;
     overflow: auto;
-    padding-left: 50px;
+    padding: 40px;
     height: 100%;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+#score-panels-inner::-webkit-scrollbar {
+    display: none;
 }
 
 .answer{
@@ -63,3 +87,42 @@ body{
 .correct{
     background-color: rgb(104,180,46);
 }
+
+/* CSS for buttons*/
+.button {
+    background-color: #1f1e1e;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 35px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-top: 35px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: black;
+  }
+  
+  .button:active {
+    opacity: .5;
+  }
+  
