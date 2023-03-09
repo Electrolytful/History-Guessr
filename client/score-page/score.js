@@ -15,9 +15,10 @@ for (let i = 0; i < answers.length; i++) {
     for (let j = 0; j < userResponse.length; j++) {
         if (i == j) {
             questions[i].textContent = userResponse[j].question
-            answersSelected[i].textContent = userResponse[j].answerSelected
-            correctAnswers[i].textContent = userResponse[j].correctAnswer
-            if (answersSelected[i].textContent == userResponse[j].correctAnswer) {
+            answersSelected[i].textContent = "You picked: " + userResponse[j].answerSelected
+            correctAnswers[i].textContent = "Correct answer: " + userResponse[j].correctAnswer
+
+            if (userResponse[j].answerSelected === userResponse[j].correctAnswer) {
                 tags[i].classList.add("correct")
                 tags[i].textContent = "Correct"
             }

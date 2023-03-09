@@ -139,17 +139,6 @@ img{
     background-color: #e9e9e9;
 }
 
-button{
-    margin: 50px;
-    background-color: #bd7f14;
-    font-size: large;
-    line-height: 30px;
-    width: 100px;
-    border-radius: 9999px;
-    border: none;
-    cursor: pointer;
-}
-
 .green {
     background-color: #17B729;
 }
@@ -169,4 +158,43 @@ button{
 
 #submit {
     display: none;
+}
+
+
+/* CSS for buttons*/
+.button {
+  background-color: #bd7f14;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-top: 35px;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button:active {
+  opacity: .5;
 }

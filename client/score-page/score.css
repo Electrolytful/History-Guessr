@@ -9,8 +9,12 @@ body{
     background-size: cover;
     backdrop-filter: blur(2px);
     height: 100vh;
+    font-family: 'Assistant', sans-serif;
 }
 
+h1 {
+    user-select: none; 
+}
 
 #score{
     height: 200px;
@@ -23,12 +27,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 #score-panels{
     border-radius: 10px;
     background-color: rgba(234, 224, 205, 0.199);
-    border-top: 1px solid lightgray;
+    border-top: 1px solid grey;
     margin-top: 50px;
     overflow: hidden;
     height: 500px;
@@ -38,7 +43,7 @@ body{
 #score-panels-inner{
     width: 100%;
     overflow: auto;
-    padding-left: 50px;
+    padding: 40px;
     height: 100%;
 }
 
