@@ -26,7 +26,7 @@
              "wrong3": "Nero",
              "wrong4": "Julius"
         },
-        "fact": "The Colosseum was originally known as the Amphitheatrum Flavium, or Flavian Amphitheatre, as it was constructed during the Flavian dynasty. Residents of Rome nicknamed it the Colosseo. This was due to the fact that it was built next to a 164-foot statue of Emperor Nero known as 'The Colossus of Nero.'"  
+        "fact": "The Colosseum was originally known as the Amphitheatrum Flavium. Residents of Rome nicknamed it the Colosseo as it was built next to a 164-foot statue of Emperor Nero known as 'The Colossus of Nero.'"  
     },
     {
         "id": 3,
@@ -54,7 +54,7 @@
             "wrong3": "Donatello",
             "wrong4": "Caravaggio"
         },
-        "fact": "The ceiling is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
+        "fact": "The ceiling painting by Michelangelo is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
     },
     {
         "id": 5,
@@ -112,7 +112,7 @@
              "wrong3": "Communism",
              "wrong4": "Tanks"
         },
-        "fact": "After being punched almost all the way back to Moscow by the Nazis and then fighting their way back to Berlin, after the Third Reich's fall, jubilation and street parties engulfed the Soviet Union. Lasting for days, even non-drinkers saw this as cause enough to join in the celebration. That is, until all of the nation's vodka reserves ran out, a mere 22 hours after the celebrations started!"  
+        "fact": "After being punched almost all the way back to Moscow by the Nazis and then fighting their way back to Berlin, after the Third Reich's fall, jubilation and street parties engulfed the Soviet Union. That is, until all of the nation's vodka reserves ran out, a mere 22 hours after the celebrations started!"  
     },
     {
         "id": 9,
@@ -168,7 +168,7 @@
             "wrong3": "Dmitry Medvedev",
             "wrong4": "Leonid Brezhnev"
         },
-        "fact": "As a boy, he lost two fingers from his left hand after he and his friends played with grenades they had stolen from an army store."
+        "fact": "As a boy, Boris lost two fingers from his left hand after he and his friends played with grenades they had stolen from an army store."
     },
     
     {
@@ -183,7 +183,7 @@
              "wrong3": "1762 BC",
              "wrong4": "1859 AD"
         },
-        "fact": "This pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu."  
+        "fact": "As it was built in 2560 BC the pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu."  
     },
 
     {
@@ -340,7 +340,7 @@
             "wrong3": "Teaism",
             "wrong4": "Zen tea"
         },
-        "fact": "The act of preparing and drinking matcha, the powdered green tea used in the ceremony, is a choreographed art requiring many years of study to master."
+        "fact": "Chanoyu, the act of preparing and drinking matcha, the powdered green tea used in the ceremony, is a choreographed art requiring many years of study to master."
     },
     
     {
@@ -355,7 +355,7 @@
              "wrong3": "1963",
              "wrong4": "1978"
         },
-        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries."  
+        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries in 1945."  
     },
 
     {
@@ -398,7 +398,7 @@
             "wrong3": "Gerhard Schröder",
             "wrong4": "Wilhelm II"
         },
-        "fact": "Under his leadership, Germany achieved unprecedented levels of prosperity, democracy, stability and respect."
+        "fact": "Under his leadership, Kondrad's Germany achieved unprecedented levels of prosperity, democracy, stability and respect."
     },
     {
         "id": 29,
