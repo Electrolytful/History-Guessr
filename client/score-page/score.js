@@ -5,8 +5,11 @@ const answersSelected = document.querySelectorAll('.answerSelected')
 const correctAnswers = document.querySelectorAll('.correctAnswer')
 const answers = document.querySelectorAll('.answer')
 const tags = document.querySelectorAll('.tag')
+const score = document.querySelector('#score')
 
 userResponse = JSON.parse(localStorage["responseData"])
+userScore = JSON.parse(localStorage["score"])
+score.textContent = userScore
 
 for (let i = 0; i < answers.length; i++) {
     for (let j = 0; j < userResponse.length; j++) {
