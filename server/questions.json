@@ -1,0 +1,431 @@
+[
+    {
+       "id": 1,
+       "country": "Italy",
+       "img": "https://images.unsplash.com/photo-1576073663821-75f8cebfc3bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+       "question": "Who was the wealthiest man to ever live?",
+       "answers": {
+            "right": "Augustus Caesar",
+            "wrong1": "Julius Caesar",
+            "wrong2": "Mansa Musa",
+            "wrong3": "Elon Musk",
+            "wrong4": "Bill Gates"
+       },
+       "fact": "The nephew and heir of Julius Caesar, Roman Emperor Augustus, had an estimated net worth of $46 trillion when counting for inflation."
+    },
+
+    {
+        "id": 2,
+        "country": "Italy",
+        "img": "https://free-images.com/lg/1b6c/colosseum_ruin_rome_gladiators.jpg",
+        "question": "The Colosseum got its name from a statue that it was constructed near. What is the name of that statue?",
+        "answers": {
+             "right": "The Colossus of Nero",
+             "wrong1": "Amphitheatrum Flavium",
+             "wrong2": "Colosseo",
+             "wrong3": "Nero",
+             "wrong4": "Julius"
+        },
+        "fact": "The Colosseum was originally known as the Amphitheatrum Flavium. Residents of Rome nicknamed it the Colosseo as it was built next to a 164-foot statue of Emperor Nero known as 'The Colossus of Nero.'"  
+    },
+    {
+        "id": 3,
+        "country": "Italy",
+        "img": "https://images.unsplash.com/photo-1672344921576-c416f47b9ce9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "question": "Who was the first king of Italy?",
+        "answers": {
+            "right": "Victor Emmanuel II",
+            "wrong1": "Giuseppe Garibaldi",
+            "wrong2": "Benito Mussolini",
+            "wrong3": "Leonardo da Vinci",
+            "wrong4": "Christopher Columbus"
+        },
+        "fact": "Victor Emmanuel II was the first king of a united Italy since the 6th century, and he played a crucial role in the unification of Italy. He ruled from 1861 until his death in 1878."
+    },
+    {
+        "id": 4,
+        "country": "Italy",
+        "img": "https://images.unsplash.com/photo-1576016770956-debb63d92058?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+        "question": "Who was the famous Italian artist who painted the ceiling of the Sistine Chapel?",
+        "answers": {
+            "right": "Michelangelo",
+            "wrong1": "Leonardo da Vinci",
+            "wrong2": "Raphael",
+            "wrong3": "Donatello",
+            "wrong4": "Caravaggio"
+        },
+        "fact": "The ceiling painting by Michelangelo is a masterpiece of Renaissance art and depicts scenes from the Book of Genesis."
+    },
+    {
+        "id": 5,
+        "country": "Italy",
+        "img": "https://images.unsplash.com/photo-1570006468502-aa2730cbb00e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "question": "Which Italian city was the birthplace of the Renaissance?",
+        "answers": {
+            "right": "Florence",
+            "wrong1": "Rome",
+            "wrong2": "Venice",
+            "wrong3": "Milan",
+            "wrong4": "Naples"
+        },
+        "fact": "The Renaissance began in Florence, Italy in the 14th century and lasted through the 17th century."
+    },
+    {
+        "id": 6,
+        "country": "Italy",
+        "img": "https://cdn.britannica.com/27/94127-050-836E9D81/Niccolo-Machiavelli-oil-canvas-Santi-di-Tito.jpg",
+        "question": "Who was the Italian philosopher who wrote 'The Prince'?",
+        "answers": {
+            "right": "Niccolo Machiavelli",
+            "wrong1": "Giuseppe Garibaldi",
+            "wrong2": "Benito Mussolini",
+            "wrong3": "Leonardo da Vinci",
+            "wrong4": "Christopher Columbus"
+        },
+        "fact": "Niccolo Machiavelli was a Florentine writer, philosopher, and politician who lived from 1469 to 1527. He is best known for his book 'The Prince', which has had a profound impact on political philosophy and ethics."
+    },
+
+    {
+        "id": 7,
+        "country": "Russia",
+        "img": "https://free-images.com/lg/a538/rasputin_pd.jpg",
+        "question": "What was the name of the Russian mystic who survived being poisoned and shot by Russian nobles?",
+        "answers": {
+             "right": "Rasputin",
+             "wrong1": "Malaya",
+             "wrong2": "Tsar",
+             "wrong3": "Tsarina",
+             "wrong4": "Putin"
+        },
+        "fact": "Rasputing was the target of assasination in which several nobles gave him cakes and wine laced with cyanide, all to no effect, and then shot him in the chest. They soon realized he was still alive!"  
+    },
+
+    {
+        "id": 8,
+        "country": "Russia",
+        "img": "https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "question": "What resource did Russia run out of during the end of World War 2?",
+        "answers": {
+             "right": "Vodka",
+             "wrong1": "Bullets",
+             "wrong2": "Soilders",
+             "wrong3": "Communism",
+             "wrong4": "Tanks"
+        },
+        "fact": "After being punched almost all the way back to Moscow by the Nazis and then fighting their way back to Berlin, after the Third Reich's fall, jubilation and street parties engulfed the Soviet Union. That is, until all of the nation's vodka reserves ran out, a mere 22 hours after the celebrations started!"  
+    },
+    {
+        "id": 9,
+        "country": "Russia",
+        "img": "https://cdn.britannica.com/13/59613-050-D57A3D88/Vladimir-Ilich-Lenin-1918.jpg",
+        "question": "Who was the first leader of the Soviet Union?",
+        "answers": {
+            "right": "Vladimir Lenin",
+            "wrong1": "Joseph Stalin",
+            "wrong2": "Nikita Khrushchev",
+            "wrong3": "Boris Yeltsin",
+            "wrong4": "Vladimir Putin"
+        },
+        "fact": "Valdimir served as head of government from when the Russian Empire was dissolved and became the Soviet Union in 1917 until his death in 1924."
+    },
+    {
+        "id": 10,
+        "country": "Russia",
+        "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/A736/production/_109360824_gettyimages-545698545.jpg",
+        "question": "Which event marked the end of the Soviet Union?",
+        "answers": {
+            "right": "The collapse of the Berlin Wall",
+            "wrong1": "The Cuban Missile Crisis",
+            "wrong2": "The Chernobyl disaster",
+            "wrong3": "The invasion of Afghanistan",
+            "wrong4": "The death of Stalin"
+        },
+        "fact": "The Berlin Wall was a symbol of the Cold War and the division between East and West."
+    },
+    {
+        "id": 11,
+        "country": "Russia",
+        "img": "https://cdn.britannica.com/00/93300-050-06CA2CE7/Ivan-the-Terrible-portrait-Viktor-Mikhaylovich-Vasnetsov.jpg",
+        "question": "Which czar of Russia is known as 'The Terrible'?",
+        "answers": {
+            "right": "Ivan IV",
+            "wrong1": "Peter the Great",
+            "wrong2": "Nicholas II",
+            "wrong3": "Catherine the Great",
+            "wrong4": "Alexander II"
+        },
+        "fact": "Ivan IV was the first Tsar of All the Russias and Grand Prince of Moscow. He is popularly known as Ivan the Terrible or Ivan the Fearsome for his explosive temper."
+    },
+    {
+        "id": 12,
+        "country": "Russia",
+        "img": "https://cdn.britannica.com/06/198706-050-8F86AA6B/Boris-Yeltsin-1994.jpg",
+        "question": "Who was the first president of Russia?",
+        "answers": {
+            "right": "Boris Yeltsin",
+            "wrong1": "Mikhail Gorbachev",
+            "wrong2": "Vladimir Putin",
+            "wrong3": "Dmitry Medvedev",
+            "wrong4": "Leonid Brezhnev"
+        },
+        "fact": "As a boy, Boris lost two fingers from his left hand after he and his friends played with grenades they had stolen from an army store."
+    },
+    
+    {
+        "id": 13,
+        "country": "Egypt",
+        "img": "https://images.unsplash.com/photo-1523510808004-1c4b59b5db2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "question": "When was the Great Pyramid of Giza built?",
+        "answers": {
+             "right": "2560 BC",
+             "wrong1": "10 AD",
+             "wrong2": "1250 BC",
+             "wrong3": "1762 BC",
+             "wrong4": "1859 AD"
+        },
+        "fact": "As it was built in 2560 BC the pyramid is the oldest and largest of all nine pyramids found at the Giza Necropolis, and is the final resting place of King Khufu."  
+    },
+
+    {
+        "id": 14,
+        "country": "Egypt",
+        "img": "https://images.unsplash.com/photo-1574788175517-f06058bae147?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2002&q=80",
+        "question": "What material did the Ancient Egyptians use to make their pillows with?",
+        "answers": {
+             "right": "Stone",
+             "wrong1": "Marble",
+             "wrong2": "Cloth",
+             "wrong3": "Wood",
+             "wrong4": "Feathers"
+        },
+        "fact": "In Ancient Egypt, the head was considered to be the seat of spiritual life and had to be cared for. Therefore, when getting into bed, the Egyptians would place their heads on a stone with a curve in it."  
+    },
+    {
+        "id": 15,
+        "country": "Egypt",
+        "img": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "question": "What ancient wonder of the world is located in Egypt?",
+        "answers": {
+            "right": "The Great Pyramid of Giza",
+            "wrong1": "The Colossus of Rhodes",
+            "wrong2": "The Lighthouse of Alexandria",
+            "wrong3": "The Hanging Gardens of Babylon",
+            "wrong4": "The Temple of Artemis at Ephesus"
+        },
+        "fact": "The Pyramids of Giza were built more than 1,200 years before the rule of King Tut"
+    },
+    {
+        "id": 16,
+        "country": "Egypt",
+        "img": "https://prabook.com/web/show-photo.jpg?id=2829293",
+        "question": "Who was the last pharaoh of Egypt?",
+        "answers": {
+            "right": "Cleopatra VII",
+            "wrong1": "Ramses II",
+            "wrong2": "Nefertiti",
+            "wrong3": "Hatshepsut",
+            "wrong4": "Tutankhamun"
+        },
+        "fact": "Cleopatra was living in Rome as Caesar's mistress at the time of his violent death in 44 BC"
+    },
+    {
+        "id": 17,
+        "country": "Egypt",
+        "img": "https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgyMzgzODY0NDk1MjIwMDQw/nile-river-gettyimages-1161692416.jpg",
+        "question": "What is the name of the river that flows through Egypt?",
+        "answers": {
+            "right": "The Nile",
+            "wrong1": "The Amazon",
+            "wrong2": "The Mississippi",
+            "wrong3": "The Danube",
+            "wrong4": "The Thames"
+        },
+        "fact": "The Nile is often associated with Egypt, but in fact, it flows through 11 countries"
+    },
+    {
+        "id": 18,
+        "country": "Egypt",
+        "img": "https://cdn.britannica.com/57/197557-050-C3C5055A/Vishnu-Shiva-Brahma-Hindu-Trimurti-gods.jpg",
+        "question": "What was the religion of ancient Egypt?",
+        "answers": {
+            "right": "Polytheism",
+            "wrong1": "Monotheism",
+            "wrong2": "Atheism",
+            "wrong3": "Christianity",
+            "wrong4": "Islam"
+        },
+        "fact": "Polytheism characterizes virtually all religions other than Judaism, Christianity, and Islam"
+    },
+
+    {
+        "id": 19,
+        "country": "Japan",
+        "img": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "question": "What country was closed off from the rest of the world between the years 1635-1852?",
+        "answers": {
+             "right": "Japan",
+             "wrong1": "Korea",
+             "wrong2": "Germany",
+             "wrong3": "India",
+             "wrong4": "China"
+        },
+        "fact": "Japan had little contact with the world for 217 years due to a law known as the Sakoku Edict that restricted trade, banned foreign travel and made Japan off limits to most foreigners."
+    },
+
+    {
+        "id": 20,
+        "country": "Japan",
+        "img": "https://cdn.kastatic.org/ka-perseus-images/01b3c0e66a9df99aabe053b3fecbbd70fdf3613e.jpg",
+        "question": "What was the name of the period of Japan between the years 1192 to 1333 where the shogun rule first emerged?",
+        "answers": {
+             "right": "Kamakura",
+             "wrong1": "Kofun",
+             "wrong2": "Nara",
+             "wrong3": "Heian",
+             "wrong4": "Edo"
+        },
+        "fact": "The Kamakura Period in Japan lasted from 1192 to 1333, bringing with it the emergence of shogun rule."  
+    },
+    {
+        "id": 21,
+        "country": "Japan",
+        "img": "https://images.unsplash.com/photo-1608451993851-f5364e09027f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "question": "What is the name of the traditional Japanese garment?",
+        "answers": {
+            "right": "Kimono",
+            "wrong1": "Sari",
+            "wrong2": "Hanbok",
+            "wrong3": "Cheongsam",
+            "wrong4": "Ao dai"
+        },
+        "fact": "About a century ago, most people in Japan wore kimono every day."
+    },
+    {
+        "id": 22,
+        "country": "Japan",
+        "img": "https://www.kcpinternational.com/wp-content/uploads/2019/04/Statue-of-Minamoto-no-Yoritomo-in-Genjiyama-Park.jpg",
+        "question": "Who was the first shogun of Japan?",
+        "answers": {
+            "right": "Minamoto no Yoritomo",
+            "wrong1": "Oda Nobunaga",
+            "wrong2": "Toyotomi Hideyoshi",
+            "wrong3": "Tokugawa Ieyasu",
+            "wrong4": "Date Masamune"
+        },
+        "fact": "Minamoto no Yoritomo was known for being an excellent archer, and it is said that he once shot a target from over 100 yards away while riding on horseback."
+    },
+    {
+        "id": 23,
+        "country": "Japan",
+        "img": "https://cdn.britannica.com/03/75503-050-F65891FA/volcanic-cone-Japan-Mount-Fuji.jpg",
+        "question": "What is the name of the highest mountain in Japan?",
+        "answers": {
+            "right": "Mount Fuji",
+            "wrong1": "Mount Everest",
+            "wrong2": "Mount Kilimanjaro",
+            "wrong3": "Mount McKinley",
+            "wrong4": "Mount Rainier"
+        },
+        "fact": "Mount Fuji is considered a sacred site in Japan and has been a pilgrimage destination for centuries."
+    },
+    {
+        "id": 24,
+        "country": "Japan",
+        "img": "https://trulyexperiences.com/blog/wp-content/uploads/2015/03/The-History-and-Meaning-behind-the-Japanese-Tea-Ceremony.jpg",
+        "question": "What is the name of the traditional Japanese tea ceremony?",
+        "answers": {
+            "right": "Chanoyu",
+            "wrong1": "Chado",
+            "wrong2": "Sado",
+            "wrong3": "Teaism",
+            "wrong4": "Zen tea"
+        },
+        "fact": "Chanoyu, the act of preparing and drinking matcha, the powdered green tea used in the ceremony, is a choreographed art requiring many years of study to master."
+    },
+    
+    {
+        "id": 25,
+        "country": "Germany",
+        "img": "https://free-images.com/lg/34e4/swastikas_flags_berlin_germany.jpg",
+        "question": "At what year was the Third Reich of Germany abolished?",
+        "answers": {
+             "right": "1945",
+             "wrong1": "1918",
+             "wrong2": "1897",
+             "wrong3": "1963",
+             "wrong4": "1978"
+        },
+        "fact": "The Third Reich was brought down by the Allied armies of the United States, the United Kingdom, the Soviet Union, France, and other countries in 1945."  
+    },
+
+    {
+        "id": 26,
+        "country": "Germany",
+        "img": "https://free-images.com/lg/f1e4/beethoven.jpg",
+        "question": "From what country was the famous composer Ludwig van Beethoven from?",
+        "answers": {
+             "right": "Germany",
+             "wrong1": "Italy",
+             "wrong2": "France",
+             "wrong3": "Denmark",
+             "wrong4": "Sweden"
+        },
+        "fact": "Germany has been called the “Land of Poets and Thinkers.” Germans are famous in all forms of art, but particularly classical music."  
+    },
+    {
+        "id": 27,
+        "country": "Germany",
+        "img": "https://cdn.britannica.com/26/188426-050-2AF26954/Germany-Poland-September-1-1939.jpg",
+        "question": "What was the name of the political party that ruled Germany during World War II?",
+        "answers": {
+            "right": "Nazi Party",
+            "wrong1": "Social Democratic Party",
+            "wrong2": "Christian Democratic Union",
+            "wrong3": "Free Democratic Party",
+            "wrong4": "Green Party"
+        },
+        "fact": "The Nazis offered a bounty for Albert Einstein's assassination."
+    },
+    {
+        "id": 28,
+        "country": "Germany",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bundesarchiv_B_145_Bild-F078072-0004%2C_Konrad_Adenauer.jpg",
+        "question": "Who was the first Chancellor of Germany?",
+        "answers": {
+            "right": "Konrad Adenauer",
+            "wrong1": "Angela Merkel",
+            "wrong2": "Helmut Kohl",
+            "wrong3": "Gerhard Schröder",
+            "wrong4": "Wilhelm II"
+        },
+        "fact": "Under his leadership, Kondrad's Germany achieved unprecedented levels of prosperity, democracy, stability and respect."
+    },
+    {
+        "id": 29,
+        "country": "Germany",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg",
+        "question": "What is the name of the famous German composer of the 18th century?",
+        "answers": {
+            "right": "Johann Sebastian Bach",
+            "wrong1": "Wolfgang Amadeus Mozart",
+            "wrong2": "Ludwig van Beethoven",
+            "wrong3": "Franz Schubert",
+            "wrong4": "George Frideric Handel"
+        },
+        "fact": "His father, Johann Ambrosius Bach was a 7th generation musician, and carried on the tradition by teaching him how to play the violin."
+    },
+    {
+        "id": 30,
+        "country": "Germany",
+        "img": "https://cdn.britannica.com/86/178586-050-00EAC219/citizens-West-German-opening-Berlin-Wall-Potsdamer-November-1989.jpg",
+        "question": "What was the name of the famous wall that divided Berlin during the Cold War?",
+        "answers": {
+            "right": "Berlin Wall",
+            "wrong1": "Great Wall of China",
+            "wrong2": "Hadrian's Wall",
+            "wrong3": "Wall of Troy",
+            "wrong4": "Ming Great Wall"
+        },
+        "fact": "The Berlin Wall ran 96 miles in length"
+    }    
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Assistant:wght@300&family=Caesar+Dressing&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="quiz.js"></script>
+    <link rel="stylesheet" href="quiz.css" />
+    <title>Quiz - History Guessr</title>
+  </head>
+  <body>
+    <nav>
+      <h1>History Guessr</h1>
+      <div class="score">
+        <img src="userIcon.png" alt="user icon" />
+        <h2 id="users">0</h2>
+      </div>
+    </nav>
+    <main>
+      <div id="countryDiv">
+        <h2 id="country"></h2>
+      </div>
+      <img
+        id="image"
+        src="https://images.unsplash.com/photo-1576073663821-75f8cebfc3bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        alt="Statue of Augustus Caesar"
+      />
+      <div id="funFact">
+        <h3 id="funFactContent"></h3>
+      </div>
+    </main>
+    <div id="content">
+      <h3 id="question"></h3>
+      <div class="answersDiv"></div>
+      <button class="button"id="next">Next</button>
+      <button class="button" id="submit" onclick='location.href="../score-page/score.html"'>Submit</button>
+    </div>
+  </body>
+</html>
