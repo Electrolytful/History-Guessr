@@ -10,7 +10,7 @@
     /* just an example */
     --red: #FF0000;
     --mustard-yellow: #bd7f14;
-    --butterscotch-tan: #FFAD43;
+    --butterscotch-tan: E9A35B
     --correct-green: #17B729;
     --incorrect-red: #C41717;
 }
@@ -96,7 +96,7 @@ img{
 
 
 #funFact{
-    background-color: var(--butterscotch-tan);
+    background-color: rgb(255, 173, 67);
     height: 25%;
     display: flex;
     align-items: center;
