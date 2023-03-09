@@ -5,6 +5,13 @@
     transition: all 0.4s;
 }
 
+:root {
+    --mustard-yellow: #bd7f14;
+    --butterscotch-tan: #FFAD43;
+    --correct-green: #17B729;
+    --incorrect-red: #C41717;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,9 +19,10 @@ body {
     align-items: center;
     gap: 250px;
     min-height: 100vh;
-    background: #659999;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: hsla(39, 100%, 77%, 1);
+    background: -moz-linear-gradient(45deg, rgb(247, 186, 72) 0%, rgb(245, 131, 65) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(247, 186, 72) 0%, rgb(245, 131, 65) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFD78A", endColorstr="#F4762D", GradientType=1 );
 }
 
 .title {
@@ -36,6 +44,7 @@ body {
     font-size: 21px;
     position: relative;
     top: 35px;
+    padding: 20px;
 }
 
 .box {
@@ -55,7 +64,7 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
-    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004) ;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
 }
 
 .box span img {
@@ -81,38 +90,40 @@ body {
     }
 }
 
-/* CSS for button*/
-.button-81 {
-  background-color: #fff;
-  border: 0 solid #e2e8f0;
-  border-radius: 1.5rem;
-  box-sizing: border-box;
-  color: #0d172a;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1;
-  padding: 1rem 1.6rem;
-  text-align: center;
-  text-decoration: none #0d172a solid;
-  text-decoration-thickness: auto;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
-  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-81:hover {
-  background-color: #1e293b;
-  color: #fff;
-}
-
-@media (min-width: 768px) {
-  .button-81 {
-    font-size: 1.125rem;
-    padding: 1rem 2rem;
+/* CSS for buttons*/
+.button {
+    background-color: #1f1e1e;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 35px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
   }
-}
+  
+  .button:hover,
+  .button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: black;
+  }
+  
+  .button:active {
+    opacity: .5;
+  }
+  
