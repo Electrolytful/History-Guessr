@@ -14,6 +14,7 @@ createOptions();
 button.addEventListener("click", createOptions);
 submitButton.addEventListener("click", () => {
     localStorage["responseData"] = JSON.stringify(userResponse)
+    localStorage["score"] = JSON.stringify(users.innerText)
 })
 
 let userResponse = [];
@@ -91,5 +92,3 @@ function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
 }
 const submit = document.querySelector('#submit')
-
-localStorage["responseData"] = JSON.stringify(userResponse)

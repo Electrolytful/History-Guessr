@@ -15,18 +15,14 @@ body{
 #score{
     height: 200px;
     width: 200px;
+    font-size: 6rem;
+    font-weight: 400;
     color: brown;
     font-family: 'Caesar Dressing', cursive;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-h2{
-    
-    font-size: 6rem;
-    font-weight: 400;
 }
 
 #score-panels{
