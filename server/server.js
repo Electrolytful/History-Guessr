@@ -35,7 +35,7 @@ app.get('/questions/random', async (req, res, next) => {
     // assigning a random number in the range of the number of elements in the questions array
     let number = Math.floor(Math.random() * questions.length);
     let exists = true;
-
+    
     // if the array of answered questions is the same as the questions array then all questions have been tried, reset the answered questions array and start over
     if(questionAnswered.length === questions.length) {
         questionAnswered = [];
